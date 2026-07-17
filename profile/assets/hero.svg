@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title description" lang="zh-CN">
+  <title id="title">ZaunEkko</title>
+  <desc id="description">暖色调编辑式横幅，描绘一个未闭合的时间环与一株新生枝芽。</desc>
+
+  <rect x="1" y="1" width="1198" height="398" rx="27" fill="#F5F2EA" stroke="#D8D2C7" stroke-width="2"/>
+
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="70" y="74" font-size="16" font-weight="650" letter-spacing="4.5" fill="#C75F47">ZAUN / EKKO</text>
+    <text x="70" y="242" font-size="28" font-weight="500" fill="#282622">时间不在于你拥有多少,而在于你怎样使用~~</text>
+    <text x="72" y="286" font-size="15" font-weight="500" letter-spacing="2.2" fill="#6A655D">个人项目 · 创意实验 · 开源内容</text>
+    <text x="90" y="350" font-size="14" font-weight="600" letter-spacing="1.1" fill="#4F4B45">ZAUNEKKO.COM</text>
+  </g>
+
+  <text x="65" y="190" font-family="Georgia, Times New Roman, serif" font-size="88" font-weight="600" letter-spacing="-3" fill="#1C1B18">Zaun<tspan font-style="italic" font-weight="400">Ekko</tspan></text>
+
+  <line x1="70" y1="321" x2="694" y2="321" stroke="#CEC7BC" stroke-width="2"/>
+  <circle cx="74" cy="346" r="5" fill="#7D8964"/>
+  <line x1="760" y1="54" x2="760" y2="346" stroke="#D8D2C7" stroke-width="2"/>
+
+  <g fill="none" stroke="#1C1B18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1010 88C1061 114 1086 167 1077 224C1067 286 1024 329 964 338C902 347 845 317 821 264C797 212 811 153 850 112C878 83 914 72 952 78" stroke-width="13"/>
+    <path d="M934 207C948 174 971 154 1004 148" stroke-width="10"/>
+    <path d="M934 207C913 238 891 255 861 263" stroke-width="10"/>
+    <path d="M980 89C987 70 995 55 1006 42" stroke-width="5"/>
+  </g>
+
+  <path d="M1004 44C1027 35 1047 42 1055 59C1035 70 1016 65 1004 44Z" fill="#7D8964" stroke="#1C1B18" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M995 61C979 47 962 47 951 57C962 73 979 75 995 61Z" fill="#D66A4F" stroke="#1C1B18" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M1040 124C1064 163 1067 204 1057 238" fill="none" stroke="#D66A4F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="934" cy="207" r="11" fill="#D66A4F"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M830 140L815 129" stroke="#D66A4F" stroke-width="5"/>
+    <path d="M810 207L788 207" stroke="#7D8964" stroke-width="5"/>
+    <path d="M846 294L831 310" stroke="#D66A4F" stroke-width="5"/>
+    <path d="M948 339L947 362" stroke="#7D8964" stroke-width="5"/>
+  </g>
+</svg>

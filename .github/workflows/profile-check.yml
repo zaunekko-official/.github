@@ -14,5 +14,43 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Verify organization profile
-        run: test -s profile/README.md
+      - name: Verify localized organization profile
+        run: |
+          files=(
+            profile/README.md
+            profile/README.en.md
+            profile/README.ja-JP.md
+            profile/README.pt-BR.md
+            profile/README.es.md
+            profile/README.ru-RU.md
+            profile/assets/hero.svg
+            profile/assets/hero.en.svg
+            profile/assets/hero.ja-JP.svg
+            profile/assets/hero.pt-BR.svg
+            profile/assets/hero.es.svg
+            profile/assets/hero.ru-RU.svg
+          )
+
+          for file in "${files[@]}"; do
+            test -s "$file"
+          done
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          profile = Path("profile")
+          readmes = {
+              "README.md": "assets/hero.svg",
+              "README.en.md": "assets/hero.en.svg",
+              "README.ja-JP.md": "assets/hero.ja-JP.svg",
+              "README.pt-BR.md": "assets/hero.pt-BR.svg",
+              "README.es.md": "assets/hero.es.svg",
+              "README.ru-RU.md": "assets/hero.ru-RU.svg",
+          }
+
+          for name, hero in readmes.items():
+              text = (profile / name).read_text(encoding="utf-8")
+              assert f"./{hero}" in text, f"{name} does not reference {hero}"
+              for other in readmes.keys() - {name}:
+                  assert f"./{other}" in text, f"{name} does not link to {other}"
+          PY
