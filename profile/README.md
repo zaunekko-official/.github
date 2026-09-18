@@ -8,33 +8,33 @@
 </p>
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="ZaunEkko — 时间不在于你拥有多少,而在于你怎样使用~~">
+  <a href="https://zaunekko.com">
+    <img src="./assets/editorial-hero.gif" width="100%" alt="ZaunEkko — 个人项目、内容与服务网络">
+  </a>
 </p>
+
+## 站点网络
+
+<p>从 <a href="https://zaunekko.com"><strong>zaunekko.com</strong></a> 进入完整站群，或直接打开你需要的服务。</p>
 
 <p align="center">
-  <a href="https://zaunekko.com">官方网站</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/orgs/zaunekko-official/repositories">浏览仓库</a>
+  <a href="https://blog.zaunekko.com"><img src="./assets/editorial-blog.svg" width="49%" alt="ZaunEkko's Blog — 文章、说说与个人记录"></a>
+  <a href="https://api.zaunekko.com"><img src="./assets/editorial-api.svg" width="49%" alt="API Marketplace — 精确版本的公开 API 服务"></a>
+</p>
+<p align="center">
+  <a href="https://account.zaunekko.com"><img src="./assets/editorial-account.svg" width="49%" alt="ZaunEkko Account — 统一账号、权限与积分"></a>
+  <a href="https://docs.zaunekko.com"><img src="./assets/editorial-docs.svg" width="49%" alt="ZaunEkko Docs — 开发者文档与接入指南"></a>
+</p>
+<p align="center">
+  <a href="https://status.zaunekko.com"><img src="./assets/editorial-status.svg" width="49%" alt="ZaunEkko Status — 服务状态与事件记录"></a>
+  <a href="https://github.com/orgs/zaunekko-official/repositories"><img src="./assets/editorial-github.svg" width="49%" alt="ZaunEkko Open Source — 公开项目与维护记录"></a>
 </p>
 
----
+## 公开项目
 
-## 这里是 ZaunEkko
+- **[`codex-pets`](https://github.com/zaunekko-official/codex-pets)** — 钴蓝手绘风 Codex 动态宠物，包含完整 v2 动作图集、16 个看向方向与跨平台安装脚本。
+- **[`.github`](https://github.com/zaunekko-official/.github)** — 组织首页、社区配置与多语言资料。
 
-用来安放个人项目、创意实验，以及准备长期维护的开源内容。
-
-比起把每个想法都包装得很大，这里更在意一件事：**先把它认真做完，再把过程说明白。**
-
-### 正在整理
-
-> 首批公开项目仍在准备中。完成到值得分享的时候，它们会从这里开始。
-
-### 以后会出现
-
-- 能直接使用的小工具和项目
-- 技术与创意方向的实验
-- 完整的文档、更新记录与参与方式
-
-### 找到我
-
-更多信息与其他入口，可以前往 [zaunekko.com](https://zaunekko.com)。
+<p align="center">
+  <a href="https://zaunekko.com"><strong>进入 ZAUNEKKO.COM →</strong></a>
+</p>
