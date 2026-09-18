@@ -40,7 +40,7 @@ jobs:
 
           profile = Path("profile")
           readmes = {
-              "README.md": "assets/hero.svg",
+              "README.md": "assets/editorial-hero.gif",
               "README.en.md": "assets/hero.en.svg",
               "README.ja-JP.md": "assets/hero.ja-JP.svg",
               "README.pt-BR.md": "assets/hero.pt-BR.svg",
