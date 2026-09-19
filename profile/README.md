@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://zaunekko.com">
-    <img src="./assets/editorial-hero.gif" width="100%" alt="ZaunEkko — 个人项目、内容与服务网络">
+    <img src="./assets/editorial-hero.svg" width="100%" alt="ZaunEkko — 个人项目、内容与服务网络">
   </a>
 </p>
 
